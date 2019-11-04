@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Yam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Yam.ESwim.MainActivity2"></activity>
+        <activity android:name="com.Yam.ESwim.UpdateProductActivity" />
+        <activity android:name="com.Yam.ESwim.ProductsActivity" />
+        <activity android:name="com.Yam.ESwim.UpdateProductActivity2" />
+        <activity android:name="com.Yam.ESwim.ProductActivity2" />
+        <activity android:name="com.Yam.ESwim.Main2" />
+        <activity android:name="com.Yam.ESwim.LoginActivity" />
+        <activity android:name="com.Yam.ESwim.AboutUs" />
+        <activity android:name="com.Yam.ESwim.ChatBot" />
+        <activity android:name="com.Yam.ESwim.MainMenu" />
+        <activity android:name="com.Yam.ESwim.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Yam.ESwim.MainActivity" />
+        <activity android:name="com.Yam.ESwim.SignupActivity" />
+        <activity android:name="com.Yam.ESwim.ResetPasswordActivity" />
+    </application>
+
+</manifest>
